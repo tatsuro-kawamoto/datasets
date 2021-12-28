@@ -41,11 +41,11 @@ The survey also asks the prefecture that the respondent currently live (`living_
 ## Visualization
 
 ### Raw network 
-![NetworkPlot](./figures/starbucks2021_raw_network.pdf)
+![NetworkPlot](./figures/starbucks2021_raw_network.png)
 Vertex colors represent categories and vertex sizes reflect degrees.
 
 ### Backbone network
-![BackboneNetwork](./figures/starbucks_backbone_ISOMAP.pdf)
+![BackboneNetwork](./figures/starbucks_backbone_ISOMAP.png)
 See [1] for the description of the backbone network.
 
 ## Contributors
