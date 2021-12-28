@@ -1,4 +1,4 @@
-![ETF (Exchange Traded Fund) dataset in 2021](logo_ETF.png)
+![ETF (Exchange Traded Fund) dataset in 2021](./figures/logo.png)
 
 This dataset is a weighted undirected bipartite network of the ETF (Exchange Traded Fund) in 2021. 
 

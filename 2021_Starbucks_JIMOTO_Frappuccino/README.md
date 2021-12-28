@@ -1,6 +1,6 @@
 # Starbucks JIMOTO Frappuccino dataset (2021)
 
-This dataset is a binary matrix (incidence matrix) of an online survey in the csv format. 
+This dataset is a binary matrix (incidence matrix) indicating the result of an online survey. 
 During the summer of 2021, Starbucks Japan sold 47 types of Frappuccino as local specials of each prefecture in Japan. 
 We obtained 329 valid responses indicating 5 types of Frappuccino that each respondent wanted to try (i.e., a 329-by-47 matrix with each row-marginal equals to 5).
 
@@ -12,7 +12,7 @@ We obtained 329 valid responses indicating 5 types of Frappuccino that each resp
 - demographic.csv: Demographic information (see below) of each respondent
 
 ### graphml
-- starbuck_jimoto_frappuccino.graphml: Graph that contains all information in the csv files.
+- starbuck_jimoto_frappuccino.graphml: Graph that contains all information in the csv files
 
 
 ## Background and details
@@ -38,6 +38,16 @@ They are not considered as "ground-truth" labels and are only for a better inter
 The survey also asks the prefecture that the respondent currently live (`living_prefecture `) and the hometown (`hometown_prefecture`).
 
 
+## Visualization
+
+### Raw network 
+![NetworkPlot](./figures/starbucks2021_raw_network.pdf)
+Vertex colors represent categories and vertex sizes reflect degrees.
+
+### Backbone network
+![BackboneNetwork](./figures/starbucks_backbone_ISOMAP.pdf)
+See [1] for the description of the backbone network.
+
 ## Contributors
 - Tatsuro Kawamoto
 
@@ -45,7 +55,7 @@ The survey also asks the prefecture that the respondent currently live (`living_
 This dataset was collected by the contributor privately.
 
 ## Researches
-- Tatsuro Kawamoto, "Single-trajectory map equation," arxiv:***.
+[1] Tatsuro Kawamoto, "Single-trajectory map equation," arxiv:***.
 
 
 ## Citation
